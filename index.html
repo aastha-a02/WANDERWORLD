@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWorld - Travel & Tourism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">WanderWorld</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Discover the Beauty of India</h1>
+        <p>Explore beautiful places and create unforgettable memories.</p>
+        <a href="#destinations" class="btn">Explore Now</a>
+    </section>
+
+    <section class="destinations" id="destinations">
+        <h2>Popular Destinations</h2>
+        <p>Explore some of the most beautiful places in India.</p>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="download.jpg"
+                     alt="Taj Mahal in Agra">
+                <h3>Agra</h3>
+                <p>Discover the beauty of the Taj Mahal.</p>
+                <a href="https://www.tajmahal.gov.in/" class="card-btn">Explore More</a>
+            </div>
+
+            <div class="card">
+                <img src="images.jpg"
+                     alt="Goa beach">
+                <h3>Goa</h3>
+                <p>Enjoy beautiful beaches and sunsets.</p>
+                <a href="https://goa-tourism.com/" class="card-btn">Explore More</a>
+            </div>
+
+            <div class="card">
+                <img src="download (1).jpg"
+                     alt="Jaipur heritage">
+                <h3>Jaipur</h3>
+                <p>Experience royal palaces and culture.</p>
+                <a href="https://tourism.rajasthan.gov.in/" class="card-btn">Explore More</a>
+            </div>
+
+            <div class="card">
+                <img src="landscape-manali.jpg"
+                     alt="Manali mountains">
+                <h3>Manali</h3>
+                <p>Enjoy peaceful mountains and valleys.</p>
+                <a href="https://himachaltourism.gov.in/" class="card-btn">Explore More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+        <h2>Our Travel Packages</h2>
+
+        <div class="package-container">
+
+            <div class="package">
+                <h3>Weekend Getaway</h3>
+                <p>Perfect for a short trip.</p>
+                <h4>₹2,999 onwards</h4>
+                <a href="#contact" class="btn">Enquire Now</a>
+            </div>
+
+            <div class="package">
+                <h3>Adventure Trip</h3>
+                <p>Explore mountains and nature.</p>
+                <h4>₹5,999 onwards</h4>
+                <a href="#contact" class="btn">Enquire Now</a>
+            </div>
+
+            <div class="package">
+                <h3>Family Holiday</h3>
+                <p>Create memories with family.</p>
+                <h4>₹8,999 onwards</h4>
+                <a href="#contact" class="btn">Enquire Now</a>
+            </div>
+
+        </div>
+
+        <p class="note">Prices are sample prices for this student project.</p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Plan Your Next Trip</h2>
+        <p>Fill in your details to send a travel enquiry.</p>
+
+        <form>
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="destination">Choose Destination</label>
+            <select id="destination" name="destination" required>
+                <option value="">Select a destination</option>
+                <option>Agra</option>
+                <option>Goa</option>
+                <option>Jaipur</option>
+                <option>Manali</option>
+            </select>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4"
+                      placeholder="Write your travel plans"></textarea>
+
+            <button type="submit">Send Enquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <h3>WanderWorld</h3>
+        <p>Explore More. Travel More. Live More.</p>
+        <p>&copy; 2026 WanderWorld | Student Project</p>
+    </footer>
+
+</body>
+</html>
